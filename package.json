@@ -4,7 +4,10 @@
   "description": "An alias for \"npm run\".",
   "author": "i'DLisT <me@idl.ist> (https://idl.ist)",
   "license": "Apache-2.0",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "npm run"
+  ],
   "homepage": "https://github.com/idlist/ni-pin-ming-run#readme",
   "repository": {
     "type": "git",
