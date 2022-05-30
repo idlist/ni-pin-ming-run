@@ -43,7 +43,7 @@ if (!args.length) {
     if (code) {
       console.log(`润了 ${r.pink(duration)} 秒${r.orange('润出问题')}了！（退出码：${r.red(code.toString())}）检查一下再润吧 ${r.purple('...(o_ _)o⌒☆')}`)
     } else {
-      console.log(`润了 ${r.pink(duration)} 秒润累了！休息一会儿再润${r.rainbow('.'.repeat(12), { offset: 'random' })} ${r.mint('_(-ω -`_)')}`)
+      console.log(`润了 ${r.pink(duration)} 秒润累了！休息一会儿再润${r.v60('.'.repeat(6))} ${r.mint('_(-ω -`_)')}`)
     }
   }
 
