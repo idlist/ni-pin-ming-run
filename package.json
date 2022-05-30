@@ -1,6 +1,6 @@
 {
   "name": "ni-pin-ming-run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An alias for \"npm run\".",
   "author": "i'DLisT <me@idl.ist> (https://idl.ist)",
   "license": "Apache-2.0",
@@ -19,6 +19,9 @@
   "bin": {
     "你拼命润": "./bin/index.js"
   },
+  "files": [
+    "bin"
+  ],
   "main": "bin/index.js",
   "scripts": {
     "once": "node ./test/once.js",
